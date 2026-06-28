@@ -62,10 +62,10 @@ Go multithreaded enumerator for KFC Hut gift cards. Identifies valid PINs by ana
 ### 2. 选择配置文件config.json
 可参考的config使用案例（只需要输入邮件中给出的cardSequence、16位paymentPrefix（去除最末的0000）、通过reqable抓包获取的token以及openId）
 {
-    "cardSequence": "D0000IIR0110KTG0000",
-    "paymentPrefix": "210010923555000",
-    "token": "1d78e9a27b5e9506_...",
-    "openId": "omxxxxxxxxxxxxxxxxxxPj_aE",
+    "cardSequence": "", #首掺杂数字和字母的15 位主体​ + 末尾常附 0000
+    "paymentPrefix": "210010923555000",#16 位纯数字
+    "token": "",#四段.两段的格式，注意单个token有一定的时间限制，若出现报错则需要重新抓包
+    "openId": "",#o开头 + A-Z a-z 0-9 _ -（base64url 风格）的28 位"omxHq0xxxxxxxxxxxxxxxxxxxxxxxx"
 
     "secretKey": "kfc",
     "encodeList": ["smsCode"],
