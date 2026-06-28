@@ -1,0 +1,20 @@
+{
+    "cardSequence": "D0021IIR0110KTG0000",
+    "paymentPrefix": "210010xxxxxxxxxx",
+    "token": "1d78e9a27b5e9506_19eea59e60a_19eea59e60a_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "openId": "omxHq0xxxxxxxxxxxxxxxxxxxxxxxx",
+
+    "secretKey": "kfc",
+    "encodeList": ["smsCode"],
+    "referer": "https://servicewechat.com/wx08ee7f7d36a2eff8/455/page-frame.html",
+    "host": "appcamp.kfc.com.cn",
+
+    "clientKey": "wxaupllQI8zMn8m8",
+    "clientSec": "6nVSIvoC16X1kaVl",
+    "signPath": "/card/queryRealCardInfo",
+    "fullUrl": "https://appcamp.kfc.com.cn/api/card/queryRealCardInfo",
+
+    "threads": 20,
+    "maxRetry": 25,
+    "retryWait": 3
+}
