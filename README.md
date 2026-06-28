@@ -88,9 +88,13 @@ Go multithreaded enumerator for KFC Hut gift cards. Identifies valid PINs by ana
 打开 retry_analysis.txt，内容示例如下：
 重试次数大于7的密码:
 2100009235556066143: 12
+
 2100009235556060012: 8
+
 2100009235556064891: 9
 
 成功密码:
+
 卡号(cardSequence): D0000IIR0110KTG0000
+
 密码(paymentCode): 2100009235556066143
