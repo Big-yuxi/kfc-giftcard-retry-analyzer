@@ -3,7 +3,7 @@ Go multithreaded enumerator for KFC Hut gift cards. Identifies valid PINs by ana
 
 # 礼品卡 paymentCode 枚举与重试分析工具
 
-## 用途
+## 用途-仅针对必应积分世界杯肯德基礼品卡邮件密码错误问题
 
 当微软肯德基礼品卡卡密后4位因数据错误被置为 `0000` 时，本工具通过遍历 `0000~9999` 并结合**服务器重试行为分析**，精准定位正确的密码。
 
